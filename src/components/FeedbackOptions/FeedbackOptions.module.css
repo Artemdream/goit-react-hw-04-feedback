@@ -1,0 +1,20 @@
+button {
+  padding: 7px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition-duration: 250ms;
+  background-color: rgb(174, 233, 159);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button:active {
+  background-color: rgb(83, 220, 45);
+}
+
+button:hover {
+  transform: scale(1.1);
+  /* border: 1px solid rgb(107, 213, 78); */
+}
